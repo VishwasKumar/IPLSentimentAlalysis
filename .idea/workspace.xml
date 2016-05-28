@@ -14,10 +14,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SMM$Exporter.coverage" NAME="Exporter Coverage Results" MODIFIED="1461009331367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TweetsCollector" />
+    <SUITE FILE_PATH="coverage/SMM$collectTweets.coverage" NAME="collectTweets Coverage Results" MODIFIED="1460691048334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TweetCollector" />
     <SUITE FILE_PATH="coverage/SMM$preProcessJson.coverage" NAME="preProcessJson Coverage Results" MODIFIED="1461080280823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SMM$convertCsvToJson.coverage" NAME="convertCsvToJson Coverage Results" MODIFIED="1461009249168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SMM$collectTweets.coverage" NAME="collectTweets Coverage Results" MODIFIED="1460691048334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TweetCollector" />
-    <SUITE FILE_PATH="coverage/SMM$Exporter.coverage" NAME="Exporter Coverage Results" MODIFIED="1461009331367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TweetsCollector" />
     <SUITE FILE_PATH="coverage/SMM$authenticateStreaming.coverage" NAME="authenticateStreaming Coverage Results" MODIFIED="1460664626157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TweetCollector" />
     <SUITE FILE_PATH="coverage/SMM$CollectTweets.coverage" NAME="CollectTweets Coverage Results" MODIFIED="1461030279276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/collectTweets" />
   </component>
@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="preProcessJson.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="preProcessJson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preProcessJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+            <state relative-caret-position="1661">
+              <caret line="110" column="55" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -42,51 +42,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cleaned_tweets.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/cleaned_tweets.txt">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="170" selection-start-line="2" selection-start-column="170" selection-end-line="2" selection-end-column="170" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_tweets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_tweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4194">
-              <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ipl_tweets.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/ipl_tweets.csv">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="100" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="248" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exporter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TweetsCollector/Exporter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="68" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ipl_tweets.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/ipl_tweets.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -122,19 +105,21 @@
         <option value="$PROJECT_DIR$/resources/cleaned_tweets.txt" />
         <option value="$PROJECT_DIR$/preProcessJson.py" />
         <option value="$PROJECT_DIR$/resources/ipl_tweets.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/get_tweets.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="24" />
-    <option name="width" value="1311" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -181,46 +166,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SMM" />
+              <option name="myItemId" value="IPLTweetsCollector" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SMM" />
+              <option name="myItemId" value="IPLTweetsCollector" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SMM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="IPLTweetsCollector" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../resources/ipl_tweets.csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -573,17 +544,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="24" width="1311" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24256293" sideWeight="0.48818898" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.48818898" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32637855" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32598424" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24302496" sideWeight="0.511811" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -595,6 +566,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -621,30 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/preProcessJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/ipl_tweets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/ipl_tweets.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="160" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="287" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preProcessJson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -764,32 +714,14 @@
     <entry file="file://$PROJECT_DIR$/output_got.csv" />
     <entry file="file://D:/Applications/Python27/Lib/json/decoder.py" />
     <entry file="file://$PROJECT_DIR$/urlfix.py" />
-    <entry file="file:///usr/lib/python2.7/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/dist-packages/nltk/corpus/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python2.7/re.py" />
+    <entry file="file:///usr/lib/python2.7/dist-packages/nltk/corpus/util.py" />
     <entry file="file://$PROJECT_DIR$/file.json" />
     <entry file="file://$PROJECT_DIR$/convertCsvToJson.py" />
     <entry file="file://$PROJECT_DIR$/resources/ipl.json" />
     <entry file="file://$PROJECT_DIR$/myfile.txt" />
     <entry file="file://$PROJECT_DIR$/file.txt" />
-    <entry file="file://$PROJECT_DIR$/../../resources/ipl_tweets.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/resources/ipl_tweets.csv" />
     <entry file="file://$PROJECT_DIR$/collectTweets/config.json" />
     <entry file="file://$PROJECT_DIR$/collectTweets/tweets.txt" />
     <entry file="file://$PROJECT_DIR$/collectTweets/test.json" />
@@ -803,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/collectTweets/CollectTweets.py" />
     <entry file="file://$PROJECT_DIR$/resources/test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="85">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
@@ -811,43 +743,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TweetsCollector/Exporter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
+        <state relative-caret-position="1139">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="68" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/cleaned_tweets.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4194">
-          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/ipl_tweets.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="100" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="248" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/ipl_tweets.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="1564">
           <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ipl_tweets.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="100" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="248" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/cleaned_tweets.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preProcessJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+        <state relative-caret-position="1661">
+          <caret line="110" column="55" selection-start-line="110" selection-start-column="55" selection-end-line="110" selection-end-column="55" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="170" selection-start-line="2" selection-start-column="170" selection-end-line="2" selection-end-column="170" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
